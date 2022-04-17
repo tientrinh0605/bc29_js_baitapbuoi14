@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài Tập 1 - JS Buổi 14</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Bài 1 Nhập 3 Số Nguyên Và Xuất Theo Thứ Tự Tăng Dần -->
+    <div class="card mt-4">
+        <div class="text-center card-header font-weight-bold bg-info">
+            Bài Tập Nhập 3 Số Nguyên Và Sắp Xếp Theo Thứ Tự Tăng Dần
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="usr">Số Thứ 1</label>
+                <input type="text" class="form-control" id="soThu1">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Số Thứ 2</label>
+                <input type="text" class="form-control" id="soThu2">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Số Thứ 3</label>
+                <input type="text" class="form-control" id="soThu3">
+            </div>
+            <div>
+                <button id="sapXepSo" type="button" class="btn btn-outline-primary">Sắp Xếp Lại Thứ Tự Tăng Dần</button>
+            </div>
+        </div>
+        <div id="ketQuaSX" class="text-center card-footer font-weight-bold bg-info">
+        </div>
+    </div>
+    <!-- Hết Bài 1 Nhập 3 Số Nguyên Và Xuất Theo Thứ Tự Tăng Dần -->
+    <!-- Bài 2 Viết Chào Hỏi Thành Viên Truy Cập Máy Tính-->
+    <div class="mt-5 border p-5 bg-primary">
+        <div class="form-group d-flex flex-column justify-content-center ">
+            <p class="text-center">Vui Lòng Nhập Thông Tin Người Sử Dụng</p>
+            <input type="text" class="form-control col-xl-6 mx-auto" id="nguoiDung">
+        </div>
+        <div class="d-flex justify-content-center">
+            <button id="dangNhap" type="button" class="btn btn-secondary">Đăng Nhập Máy Tính</button>
+        </div>
+        <div id="thongBao" class="alert alert-success text-center font-weight-bolder"></div>
+        <div class="d-flex justify-content-center">
+            <button id="chuyenNguoiDung" type="button" class="btn btn-danger">Đăng Nhập Lại Với Vai Trò Khác</button>
+        </div>
+    </div>
+    <!-- Hết Bài 2 Viết Chào Hỏi Thành Viên Truy Cập Máy Tính-->
+    <!-- Bài 3 Cho ba số nguyên và xuất có bao nhiêu số lẻ và bao nhiêu số chẳn -->
+    <div class="card mt-4">
+        <div class="text-center card-header font-weight-bold bg-warning">
+            Bài Tập Nhập 3 Số Nguyên Và Xuất Ra Có Bao Nhiêu Số Chẳn Và Bao Nhiêu Số Lẻ
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="usr">Số Thứ 1</label>
+                <input type="text" class="form-control" id="soNguyen1">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Số Thứ 2</label>
+                <input type="text" class="form-control" id="soNguyen2">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Số Thứ 3</label>
+                <input type="text" class="form-control" id="soNguyen3">
+            </div>
+            <div>
+                <button id="kqSoChanSoLe" type="button" class="btn btn-outline-warning">Số Lượng Số Chẳn Và Số Lượng Số
+                    Lẻ</button>
+            </div>
+        </div>
+        <div id="ketQuaChanLe" class="text-center card-footer font-weight-bold bg-warning">
+        </div>
+    </div>
+    <!-- Hết Bài 3 Cho ba số nguyên và xuất có bao nhiêu số lẻ và bao nhiêu số chẳn -->
+    <!-- Bài 4: Phân Biệt Tam Giác Từ 3 Thông Số Của Ba Cạnh -->
+    <div class="card mt-4">
+        <div class="text-center card-header font-weight-bold bg-success">
+            Bài Tập Nhập Thông Số 3 Cạnh Tam Giá Và Phân Biệt Loại Tam Giác
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="usr">Kích Thức Cạnh Thứ 1</label>
+                <input type="text" class="form-control" id="canh1">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Kích Thức Cạnh Thứ 2</label>
+                <input type="text" class="form-control" id="canh2">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Kích Thức Cạnh Thứ 3</label>
+                <input type="text" class="form-control" id="canh3">
+            </div>
+            <div>
+                <button id="kqTamGiac" type="button" class="btn btn-outline-success">Phân Loại Tam Giác</button>
+            </div>
+        </div>
+        <div id="ketQuaTamGiac" class="text-center card-footer font-weight-bold bg-success">
+        </div>
+    </div>
+    <!-- Hết Bài 4: Phân Biệt Tam Giác Từ 3 Thông Số Của Ba Cạnh -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
